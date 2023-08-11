@@ -1,4 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Josefin+Sans:wght@100;400;500;600;700&family=Kablammo&family=Metal+Mania&family=Open+Sans:wght@400;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&family=Poppins:wght@300;400;500;600&family=Roboto+Mono:ital,wght@0,300;0,400;0,600;1,700&family=Roboto:wght@400;700&family=Rubik+Pixels&display=swap");
+@media (max-width: 991px) {
+  html {
+    font-size: 80%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background: #fff;
+    width: 15rem;
+    height: calc(100vh - 9.5rem);
+  }
+  .header .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.7rem;
+  }
+  .header .navbar.active {
+    right: 0;
+  }
+  .header #menu-btn {
+    display: inline-block;
+  }
+}
 :root {
   --main-color:#d3ad7f;
   --black:#13131a;
@@ -74,7 +103,7 @@ body {
 .header .icons i:hover {
   color: var(--main-color);
 }
-.header .icons #menu-btn {
+.header .icons .bx-menu {
   display: none;
 }
 .header .search-form {
