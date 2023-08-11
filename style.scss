@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Josefin+Sans:wght@100;400;500;600;700&family=Kablammo&family=Metal+Mania&family=Open+Sans:wght@400;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&family=Poppins:wght@300;400;500;600&family=Roboto+Mono:ital,wght@0,300;0,400;0,600;1,700&family=Roboto:wght@400;700&family=Rubik+Pixels&display=swap');
 @import "media";
+@import "home";
 :root{
        --main-color:#d3ad7f;
        --black:#13131a;
@@ -78,7 +79,7 @@ body{
               top: 115%;
               right: 7%;
               background-color: #fff;
-              width: 25rem;
+              width: 35rem;
               height: 3rem;
               display: flex;
               align-items: center;
@@ -92,6 +93,9 @@ body{
                      padding: 1rem;
                      text-transform: none;
               }
+       }
+       .active{
+              transform: scaleY(1);
        }
        .cart-items-container{
               position: absolute;
