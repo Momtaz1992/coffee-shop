@@ -1,0 +1,29 @@
+
+@media (max-width:991px){
+       html{
+              font-size: 80%;
+       }
+       .header{
+              padding: 1.5rem 2rem;
+              .navbar{
+                     position: absolute;
+                     top:100%;right:-100%;
+                     background: #fff;
+                     width: 15rem;
+                     height: calc(100vh - 9.5rem);
+                     a{
+                            color: var(--black);
+                            display: block;
+                            margin: 1.5rem;
+                            padding: .5rem;
+                            font-size: 1.7rem;
+                     }
+                     &.active{
+                            right: 0;
+                     }
+              }
+              #menu-btn{
+                     display: inline-block;
+              }
+       }
+}
